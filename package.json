@@ -1,0 +1,29 @@
+{
+  "name": "contact-keeper-api",
+  "version": "1.0.0",
+  "description": "Contact Keeper API is used to server the contact keeper client app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phantware/contact-keeper-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phantware/contact-keeper-api/issues"
+  },
+  "homepage": "https://github.com/phantware/contact-keeper-api#readme",
+  "dependencies": {
+    "config": "^3.3.7",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
