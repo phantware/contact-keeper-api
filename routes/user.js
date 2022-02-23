@@ -1,11 +1,12 @@
 const express = require('express')
 const router = express.Router()
+const User = require('../models/Users')
 
 // @route    POST api/users
 // @desc     Register a user
 // @access   Public
 
-app.post('/register', (req, res) => {
+router.post('/register', (req, res) => {
   res.status(200).json({ msg: 'Register a user' })
 })
 

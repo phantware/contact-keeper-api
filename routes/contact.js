@@ -5,7 +5,7 @@ const router = express.Router()
 // @desc     Get all users contacts
 // @access   Private
 
-app.get('/', (req, res) => {
+router.get('/', (req, res) => {
   res.status(200).json({ msg: 'Get all contacts' })
 })
 
@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 // @desc     Add new contact
 // @access   Private
 
-app.post('/', (req, res) => {
+router.post('/', (req, res) => {
   res.status(200).json({ msg: 'Add contact' })
 })
 
@@ -21,7 +21,7 @@ app.post('/', (req, res) => {
 // @desc     Update contacts
 // @access   Private
 
-app.put('/:id', (req, res) => {
+router.put('/:id', (req, res) => {
   res.status(200).json({ msg: 'Update contact' })
 })
 
@@ -29,7 +29,7 @@ app.put('/:id', (req, res) => {
 // @desc     Delete contacts
 // @access   Private
 
-app.delete('/:id', (req, res) => {
+router.delete('/:id', (req, res) => {
   res.status(200).json({ msg: 'Delete contact' })
 })
 
